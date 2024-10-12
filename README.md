@@ -1,0 +1,9 @@
+implements a Python-based application that connects to a MySQL database through the Python Connector interface. The application provides a fully functional Graphical User Interface (GUI) built using tkinter, which allows users to interact with a bookstore database and search for books by Author, Category, and Publisher.
+
+Key features of the project include:
+
+Graphical User Interface (GUI): The GUI is organized into tabs using tkinter's Notebook, with each tab dedicated to a specific search method (Author, Category, Publisher). Each tab allows users to select options from dropdowns (Combobox) and view detailed book information. Results include book titles, availability by branch, and price. The GUI ensures real-time updates, automatically populating the relevant data based on user selection.
+Data Access Object (DAO): The DAO layer encapsulates all interactions with the MySQL database, handling SQL queries and returning data to the GUI in the form of Python objects (e.g., Author). The DAO ensures a clean separation between the database logic and the user interface, allowing for future modifications without interdependencies.
+Data Representation: The project includes custom classes (e.g., Author, Book) that organize and store data retrieved from the database. These objects provide a structured way for the GUI to access and display data.
+User Interaction: Users can search for books by author, category, or publisher, and the interface dynamically updates the available books and branch information based on their selection. The system handles edge cases, such as authors without available books, ensuring that only valid, relevant data is displayed.
+This project showcases the successful integration of Python, a MySQL database, and tkinter to create an intuitive and interactive application. It demonstrates best practices in database connectivity, object-oriented programming, and GUI design.
