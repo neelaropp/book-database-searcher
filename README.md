@@ -1,4 +1,4 @@
-implements a Python-based application that connects to a MySQL database through the Python Connector interface. The application provides a fully functional Graphical User Interface (GUI) built using tkinter, which allows users to interact with a bookstore database and search for books by Author, Category, and Publisher.
+This project implements a Python-based application that connects to a MySQL database through the Python Connector interface. The application provides a fully functional Graphical User Interface (GUI) built using tkinter, which allows users to interact with a bookstore database and search for books by Author, Category, and Publisher.
 
 Key features of the project include:
 
